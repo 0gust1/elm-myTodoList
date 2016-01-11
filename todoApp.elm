@@ -1,4 +1,4 @@
-module EventLog where
+module MyTodoApp where
 
 import Html            exposing (..)
 import Html.Events     exposing (..)

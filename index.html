@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my own crappy Elm TodoApp</title>
+    <style media="screen">
+        .main{
+            width:70%;
+            margin:3em auto 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+
+        <div id="elm-app">
+
+        </div>
+
+    </section>
+
+    <script src="elm.js"></script>
+    <script>
+    var div = document.getElementById('elm-app');
+    var stamps = Elm.embed(Elm.MyTodoApp, div, {reset:[]});
+    </script>
+</body>
+</html>
